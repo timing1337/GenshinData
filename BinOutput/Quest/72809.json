@@ -1,0 +1,516 @@
+{
+  "titleTextMapHash": 2125555495,
+  "descTextMapHash": 1234327766,
+  "_id": 72809,
+  "IJKJEBOJHNP": 0,
+  "NCLEJIILEGL": 0,
+  "_type": "WQ",
+  "COHOCGBOCFH": "MAINQUEST_TAG_NONE",
+  "PIMPBFFBLNL": "PLAY_MODE_SINGLE",
+  "NFEGGFJPMJI": "Con Đường Đảo Ritou",
+  "desc": "Trên đảo Ritou, bạn ngẫu nhiên phát hiện ra một đường hầm bí mật...",
+  "_luaPath": "Actor/Quest/WQ72809",
+  "recommendLevel": 0,
+  "repeatable": false,
+  "PEOHODAKLNO": [],
+  "FEHAEKNGFBP": false,
+  "rewardIdList": [
+    172809
+  ],
+  "showType": "QUEST_SHOW",
+  "HKNKBANBJPP": [],
+  "LACEJNKJBCG": [],
+  "OFCKAEDMIFA": 0,
+  "chapterId": 0,
+  "taskId": 0,
+  "FCPJIFCLDFI": true,
+  "activityId": 0,
+  "subQuests": [
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280901,
+      "mainId": 72809,
+      "order": 1,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [
+        {
+          "_type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "param": [
+            7280902,
+            3
+          ],
+          "count": 0
+        }
+      ],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": false,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280902,
+      "mainId": 72809,
+      "order": 2,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [
+        {
+          "_type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "param": [
+            7280901,
+            3
+          ],
+          "count": 0
+        }
+      ],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": false,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280903,
+      "mainId": 72809,
+      "order": 3,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "Điều tra doanh trại kỳ lạ",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 3
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q72809_TANSUOYINGDI",
+          "30"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_START",
+        "guideLayer": "QUEST_GUIDE_LAYER_UI"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+          "param": [
+            "133209039",
+            "1"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280904,
+      "mainId": 72809,
+      "order": 4,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Ẩn nấp gần doanh trại",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_FINISH_PLOT",
+          "param": [
+            7280904,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q72809_DUOQILAI"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_POINT",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280905,
+      "mainId": 72809,
+      "order": 5,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Quan sát Harrison",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            7280901,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "3083"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_UI"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280906,
+      "mainId": 72809,
+      "order": 6,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Đánh bại tất cả Slime",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q72809_TANSUOYINGDI",
+          "20"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_UI"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+          "param": [
+            "133209044",
+            "1"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7280907,
+      "mainId": 72809,
+      "order": 7,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện với Harrison",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            7280902,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "3083"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_FINISH",
+        "guideLayer": "QUEST_GUIDE_LAYER_UI"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": true,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
+          "param": [
+            "3",
+            "133209046,1"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    }
+  ],
+  "JLHDNCOGCBO": [
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7280901,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7280905",
+            "2"
+          ]
+        }
+      ],
+      "priority": 5,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 728090108,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        3083
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/WQ/Inazuma_72809/Q7280901",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 72809,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 123750243228,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 72809,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7280902,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7280907",
+            "2"
+          ]
+        }
+      ],
+      "priority": 5,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 728090204,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        3083
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 72809,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 821389203892,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 72809,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    }
+  ],
+  "LGCLJGGNGBD": [
+    210272409384,
+    708307072872,
+    1036166660149
+  ],
+  "OMKMAOLMNCO": [
+    834120291193
+  ],
+  "KPOKLMBEOBI": {
+    "3083": [
+      4190,
+      1300
+    ]
+  },
+  "MGDNNNGPOGO": 172809
+}

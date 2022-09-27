@@ -1,0 +1,471 @@
+{
+  "titleTextMapHash": 934758791,
+  "descTextMapHash": 331957294,
+  "_id": 11043,
+  "IJKJEBOJHNP": 2017,
+  "NCLEJIILEGL": 2017,
+  "_type": "LQ",
+  "COHOCGBOCFH": "MAINQUEST_TAG_NONE",
+  "PIMPBFFBLNL": "PLAY_MODE_SINGLE",
+  "NFEGGFJPMJI": "Thực Nghiệm III - Sinh Mệnh",
+  "desc": "Sau thử nghiệm lưu thông sức mạnh nguyên tố, Albedo muốn bạn thể hiện một số khả năng đặc biệt từ thế giới khác, nhưng cuối cùng lại không được gì. Tuy nhiên, sự quan tâm của Albedo đối với bạn dường như không hề giảm đi.",
+  "_luaPath": "Actor/Quest/LQ11043",
+  "recommendLevel": 0,
+  "repeatable": false,
+  "PEOHODAKLNO": [
+    11045
+  ],
+  "FEHAEKNGFBP": false,
+  "rewardIdList": [
+    111043
+  ],
+  "showType": "QUEST_SHOW",
+  "HKNKBANBJPP": [],
+  "LACEJNKJBCG": [],
+  "OFCKAEDMIFA": 0,
+  "chapterId": 2017,
+  "taskId": 0,
+  "FCPJIFCLDFI": false,
+  "activityId": 0,
+  "subQuests": [
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 1104301,
+      "mainId": 11043,
+      "order": 1,
+      "subIdSet": 0,
+      "isMpBlock": true,
+      "desc": "Đến nơi thực nghiệm tiếp theo",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            1104301,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "Q11043Albedo1"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_POINT",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 1104302,
+      "mainId": 11043,
+      "order": 3,
+      "subIdSet": 0,
+      "isMpBlock": true,
+      "desc": "Đến nơi Albedo yêu cầu",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "Q11043Albedo2",
+          "15"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_POINT",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+          "param": [
+            "133002935"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 1104303,
+      "mainId": 11043,
+      "order": 5,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện với Albedo, nhận được kết luận",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            1104303,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "1018"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": true,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133002929"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 1104304,
+      "mainId": 11043,
+      "order": 4,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện lại với Albedo",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            1104304,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "1018"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_ROLLBACK_QUEST",
+          "param": [
+            "1104305"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+          "param": [
+            "133002935"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 1104305,
+      "mainId": 11043,
+      "order": 2,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_FINISH_PLOT",
+          "param": [
+            1104305,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133105903"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    }
+  ],
+  "JLHDNCOGCBO": [
+    {
+      "KDHKACIEPAP": false,
+      "_id": 1104301,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_SINGLE",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "1104301",
+            "2"
+          ]
+        }
+      ],
+      "priority": 0,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 110430101,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1018
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/LQ/Albedo1_11043/Q1104301",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 11043,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 15432316964,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": true,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 11043,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 1104303,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_SINGLE",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "1104303",
+            "2"
+          ]
+        }
+      ],
+      "priority": 0,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 110430301,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1018
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/LQ/Albedo1_11043/Q1104303",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 11043,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 182625104181,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": true,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 11043,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 1104304,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_SINGLE",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "1104304",
+            "2"
+          ]
+        }
+      ],
+      "priority": 0,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 110430108,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1018
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/LQ/Albedo1_11043/Q1104304",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 11043,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 749120793426,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": true,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 11043,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    }
+  ],
+  "LGCLJGGNGBD": [
+    393400869863
+  ],
+  "OMKMAOLMNCO": [
+    416539407973
+  ],
+  "KPOKLMBEOBI": {},
+  "MGDNNNGPOGO": 111043
+}

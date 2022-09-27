@@ -1,0 +1,927 @@
+{
+  "titleTextMapHash": 3911733759,
+  "descTextMapHash": 3134822486,
+  "_id": 73106,
+  "IJKJEBOJHNP": 0,
+  "NCLEJIILEGL": 0,
+  "_type": "WQ",
+  "COHOCGBOCFH": "MAINQUEST_TAG_NONE",
+  "PIMPBFFBLNL": "PLAY_MODE_ALL",
+  "NFEGGFJPMJI": "",
+  "desc": "",
+  "_luaPath": "Actor/Quest/WQ73106",
+  "recommendLevel": 0,
+  "repeatable": false,
+  "PEOHODAKLNO": [],
+  "FEHAEKNGFBP": false,
+  "rewardIdList": [],
+  "showType": "QUEST_HIDDEN",
+  "HKNKBANBJPP": [],
+  "LACEJNKJBCG": [],
+  "OFCKAEDMIFA": 0,
+  "chapterId": 0,
+  "taskId": 0,
+  "FCPJIFCLDFI": false,
+  "activityId": 0,
+  "subQuests": [
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310601,
+      "mainId": 73106,
+      "order": 1,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_GAME_TIME_TICK",
+          "param": [
+            0,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310602,
+      "mainId": 73106,
+      "order": 2,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301206"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301426"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310603,
+      "mainId": 73106,
+      "order": 3,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301105"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301513"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310604,
+      "mainId": 73106,
+      "order": 4,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301106"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301526"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310605,
+      "mainId": 73106,
+      "order": 5,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301108"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301554"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310606,
+      "mainId": 73106,
+      "order": 6,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301109"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301565"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310607,
+      "mainId": 73106,
+      "order": 7,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301110"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301584"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310608,
+      "mainId": 73106,
+      "order": 8,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301111"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301606"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310609,
+      "mainId": 73106,
+      "order": 9,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301112"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301607"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310610,
+      "mainId": 73106,
+      "order": 10,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301113"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301608"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310611,
+      "mainId": 73106,
+      "order": 11,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301114"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301609"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310612,
+      "mainId": 73106,
+      "order": 12,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301115"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301610"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310613,
+      "mainId": 73106,
+      "order": 13,
+      "subIdSet": 1,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_LUA_NOTIFY",
+          "param": [
+            0,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": false,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_INC_QUEST_VAR",
+          "param": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301116"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133301611"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7310614,
+      "mainId": 73106,
+      "order": 14,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_QUEST_VAR_EQUAL",
+          "param": [
+            1,
+            12
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": true,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    }
+  ],
+  "JLHDNCOGCBO": [],
+  "LGCLJGGNGBD": [],
+  "OMKMAOLMNCO": [],
+  "KPOKLMBEOBI": {},
+  "MGDNNNGPOGO": 0
+}

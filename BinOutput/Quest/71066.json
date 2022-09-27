@@ -1,0 +1,776 @@
+{
+  "titleTextMapHash": 1294295919,
+  "descTextMapHash": 1138438022,
+  "_id": 71066,
+  "IJKJEBOJHNP": 0,
+  "NCLEJIILEGL": 0,
+  "_type": "WQ",
+  "COHOCGBOCFH": "MAINQUEST_TAG_NONE",
+  "PIMPBFFBLNL": "PLAY_MODE_ALL",
+  "NFEGGFJPMJI": "Vật Về Cố Chủ Lại Về Cố Chủ",
+  "desc": "Nhà thơ Taliesin đã cầu cứu bạn, hóa ra là chiếc nhẫn anh ấy trộm được từ hang ổ của Chồn Đạo Bảo lại bị chúng trộm mất rồi...",
+  "_luaPath": "Actor/Quest/WQ71066",
+  "recommendLevel": 0,
+  "repeatable": false,
+  "PEOHODAKLNO": [],
+  "FEHAEKNGFBP": false,
+  "rewardIdList": [
+    171066
+  ],
+  "showType": "QUEST_SHOW",
+  "HKNKBANBJPP": [],
+  "LACEJNKJBCG": [],
+  "OFCKAEDMIFA": 0,
+  "chapterId": 0,
+  "taskId": 0,
+  "FCPJIFCLDFI": false,
+  "activityId": 0,
+  "subQuests": [
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106601,
+      "mainId": 71066,
+      "order": 2,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            7106607,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106602,
+      "mainId": 71066,
+      "order": 3,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Tìm kiếm chiếc nhẫn bị trộm mất của Taliesin",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_OBTAIN_ITEM",
+          "param": [
+            101641,
+            0
+          ],
+          "count": 1
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q7106602_gu_ide",
+          "25"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106603,
+      "mainId": 71066,
+      "order": 4,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Đưa chiếc nhẫn đã tìm thấy cho Taliesin",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "param": [
+            7106601,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [
+        {
+          "_type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "param": [
+            7104001,
+            3
+          ],
+          "count": 0
+        }
+      ],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q7106603_gu_ide",
+          "15"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106604,
+      "mainId": 71066,
+      "order": 7,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện với Taliesin",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            7106603,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "2154"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": true,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106605,
+      "mainId": 71066,
+      "order": 1,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_HIDDEN",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            7106604,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NONE",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [],
+        "guideScene": 0,
+        "guideStyle": "QUEST_GUIDE_STYLE_NONE",
+        "guideLayer": "QUEST_GUIDE_LAYER_NONE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
+          "param": [
+            "3",
+            "133106437"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106606,
+      "mainId": 71066,
+      "order": 5,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Đưa chiếc nhẫn đã tìm thấy cho Taliesin",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "param": [
+            7106601,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [
+        {
+          "_type": "QUEST_CONTENT_QUEST_STATE_EQUAL",
+          "param": [
+            7104314,
+            3
+          ],
+          "count": 0
+        }
+      ],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q7106606_gu_ide",
+          "15"
+        ],
+        "guideScene": 6,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 7106607,
+      "mainId": 71066,
+      "order": 6,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Đưa chiếc nhẫn đã tìm thấy cho Taliesin",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_FINISH_ITEM_GIVING",
+          "param": [
+            7106601,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
+        "param": [
+          "Q7106607_gu_ide",
+          "15"
+        ],
+        "guideScene": 6,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_HIDDEN",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    }
+  ],
+  "JLHDNCOGCBO": [
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106601,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106601",
+            "2"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [
+        7106605,
+        7106606
+      ],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660101,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/WQ/Liyue_71066/Q7106601",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 527580268507,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_COMMON",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106602,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_A_AND_ETCOR",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+          "param": [
+            "7106601"
+          ]
+        },
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106603",
+            "2"
+          ]
+        },
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106606",
+            "2"
+          ]
+        },
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106607",
+            "2"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660201,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 758317508460,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106603,
+      "EDCMHBHDAHK": "TALK_BEGIN_AUTO",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106604",
+            "2"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660301,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 216707369622,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106605,
+      "EDCMHBHDAHK": "TALK_BEGIN_NONE",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_AND",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106601",
+            "2"
+          ]
+        },
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7014112",
+            "3"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [
+        7106607
+      ],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660501,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/WQ/Liyue_71066/Q7106605",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 737545922746,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106606,
+      "EDCMHBHDAHK": "TALK_BEGIN_NONE",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106601",
+            "2"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [
+        7106607
+      ],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660601,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/WQ/Liyue_71066/Q7106606",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 310342122256,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106607,
+      "EDCMHBHDAHK": "TALK_BEGIN_NONE",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106601",
+            "2"
+          ]
+        }
+      ],
+      "priority": 10,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660701,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2154,
+        1005
+      ],
+      "GHNCIOJDIEA": "QuestDialogue/WQ/Liyue_71066/Q7106607",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 588885806810,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 7106608,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_HOST",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "7106602",
+            "2"
+          ]
+        }
+      ],
+      "priority": 4,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 710660801,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        2617
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_MAIN",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 71066,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 1097673998089,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": true,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 71066,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    }
+  ],
+  "LGCLJGGNGBD": [],
+  "OMKMAOLMNCO": [],
+  "KPOKLMBEOBI": {},
+  "MGDNNNGPOGO": 171066
+}

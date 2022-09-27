@@ -1,0 +1,343 @@
+{
+  "titleTextMapHash": 2983713919,
+  "descTextMapHash": 366818206,
+  "_id": 20513,
+  "IJKJEBOJHNP": 0,
+  "NCLEJIILEGL": 0,
+  "_type": "IQ",
+  "COHOCGBOCFH": "MAINQUEST_TAG_NONE",
+  "PIMPBFFBLNL": "PLAY_MODE_ALL",
+  "NFEGGFJPMJI": "Thuốc Thần Kỳ",
+  "desc": "Anthony xin được từ chỗ Thần Y ở Liyue một đơn thuốc, dùng để trị bệnh của Anna...",
+  "_luaPath": "Actor/Quest/IQ20513",
+  "recommendLevel": 0,
+  "repeatable": true,
+  "PEOHODAKLNO": [],
+  "FEHAEKNGFBP": false,
+  "rewardIdList": [],
+  "showType": "QUEST_SHOW",
+  "HKNKBANBJPP": [],
+  "LACEJNKJBCG": [],
+  "OFCKAEDMIFA": 0,
+  "chapterId": 0,
+  "taskId": 24702,
+  "FCPJIFCLDFI": false,
+  "activityId": 0,
+  "subQuests": [
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 2051301,
+      "mainId": 20513,
+      "order": 1,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện với Anthony",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            2051301,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "1408"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_START",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 2051302,
+      "mainId": 20513,
+      "order": 2,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nhận được \"cúc cánh quạt bị Slime Phong thổi bay\"",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_OBTAIN_ITEM",
+          "param": [
+            100456,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_LOCATION",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "Q20513_WindSlime",
+          "20"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": false,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    },
+    {
+      "HDBBFJKKGOM": false,
+      "subId": 2051303,
+      "mainId": 20513,
+      "order": 3,
+      "subIdSet": 0,
+      "isMpBlock": false,
+      "desc": "Nói chuyện với Anthony",
+      "LBPMFJBNGGG": "",
+      "AGIIGKJNLIG": "",
+      "showType": "QUEST_SHOW",
+      "ACEKFDIJKGJ": "BAN_GROUP_INVALID",
+      "PEEDHLOEOMJ": [
+        {
+          "_type": "QUEST_CONTENT_COMPLETE_TALK",
+          "param": [
+            2051303,
+            0
+          ],
+          "count": 0
+        }
+      ],
+      "MIFLGHOGOIA": [],
+      "guide": {
+        "_type": "QUEST_GUIDE_NPC",
+        "autoGuide": "QUEST_GUIDE_AUTO_NONE",
+        "param": [
+          "1408"
+        ],
+        "guideScene": 3,
+        "guideStyle": "QUEST_GUIDE_STYLE_FINISH",
+        "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
+      },
+      "showGuide": "QUEST_GUIDE_ITEM_ENABLE",
+      "LPNIEFEBKGK": {
+        "_type": "QUEST_GUIDE_HINT_NONE",
+        "param1": ""
+      },
+      "NKDLEHHCADL": true,
+      "HKLAHKJAHJC": false,
+      "failParentShow": "QUEST_SHOW",
+      "EFIFPBKMMAA": true,
+      "finishExec": [
+        {
+          "_type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
+          "param": [
+            "100456"
+          ]
+        },
+        {
+          "_type": "QUEST_EXEC_NOTIFY_DAILY_TASK",
+          "param": [
+            "24702"
+          ]
+        }
+      ],
+      "failExec": [],
+      "LKPOHELCGKA": "",
+      "PBFCIDGHHHE": ""
+    }
+  ],
+  "JLHDNCOGCBO": [
+    {
+      "KDHKACIEPAP": false,
+      "_id": 2051301,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_ALL",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "2051301",
+            "2"
+          ]
+        }
+      ],
+      "priority": 5,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 205130101,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1408
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 20513,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 954803865533,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 20513,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 2051302,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_ALL",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "2051302",
+            "2"
+          ]
+        }
+      ],
+      "priority": 5,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 205130201,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1408
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 20513,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 239644126549,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 20513,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    },
+    {
+      "KDHKACIEPAP": false,
+      "_id": 2051303,
+      "EDCMHBHDAHK": "TALK_BEGIN_MANUAL",
+      "PIMPBFFBLNL": "PLAY_MODE_ALL",
+      "OBMJNLIAOPP": "LOGIC_NONE",
+      "LLPGHDDJDHN": [
+        {
+          "_type": "QUEST_COND_STATE_EQUAL",
+          "param": [
+            "2051303",
+            "2"
+          ]
+        }
+      ],
+      "priority": 5,
+      "GLHPILEDCIH": [],
+      "OPAEHKHBKHL": [],
+      "KGCBFKLPGDB": 0,
+      "DOGCHABLIOA": 205130301,
+      "FEGHBCNNPLB": 0,
+      "npcIdRawNum": [
+        1408
+      ],
+      "GHNCIOJDIEA": "",
+      "MABMOKMFNJP": "TALK_HERO_LOCAL",
+      "BBNAABABCKM": "TALK_NORMAL_QUEST",
+      "questId": 20513,
+      "JMICBAGFMDA": [],
+      "JMIFGMHBKGK": 331406263799,
+      "BHPOEKFGMHB": false,
+      "HGKKDMCIOGH": [],
+      "MOLOPNJEPGH": "",
+      "INALKPHPENP": false,
+      "JMBGJBPFDJG": false,
+      "FDNMFCPGFFI": false,
+      "AAHFEPCHGBB": "TALK_MARK_NONE",
+      "ACLCONLCKGI": false,
+      "NPKDNLBININ": false,
+      "finishExec": [],
+      "CEAIKCLNACM": [],
+      "MCFDNAFKMGJ": [],
+      "LEJMLPCIBPD": [],
+      "ABEPKKIBGCG": [],
+      "NINNIKGFJGP": false,
+      "FONNGGHHMMC": 20513,
+      "EEIJODMHMMM": null,
+      "EBNNFCOIECM": null,
+      "POCLCIKJDPI": 0
+    }
+  ],
+  "LGCLJGGNGBD": [],
+  "OMKMAOLMNCO": [],
+  "KPOKLMBEOBI": {
+    "1408": [
+      1190
+    ]
+  },
+  "MGDNNNGPOGO": 0
+}
