@@ -1,5 +1,5 @@
+### ARCHIVED | Please check out grasscutter-resources
 # GenshinData
-
 Repository containing BinOutput data for both live/beta(if possible) version of Genshin Impact.
 
 For other contents, please refer to 
